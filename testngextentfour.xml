@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test  name="Test1">
+  <parameter name="author" value="bhavani"/>
+    <classes>
+      <class name="screenshotextentday_04.testclassfour"/>
+      <methods>
+      <include name="testorange"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="Test2">
+  <parameter name="author" value="ganga"/>
+    <classes>
+      <class name="screenshotextentday_04.testclassfour"/>
+      <methods>
+      <include name="testgooglee"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="Test3">
+  <parameter name="author" value="kadali"/>
+    <classes>
+      <class name="screenshotextentday_04.testclassfour"/>
+      <methods>
+      <include name="testfacebooks"/>>
+		 </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

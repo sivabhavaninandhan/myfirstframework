@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test  name="TestORNGHRM">
+  <parameter name="author" value="bhavani"/>
+    <classes>
+      <class name="datadrivenwithExtentReportday_01.dataextenttestng"/>
+      <methods>
+      <include name="testOrangeHRMone"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+   <test  name="TestGoogle">
+  <parameter name="author" value="kadali"/>
+    <classes>
+      <class name="datadrivenwithExtentReportday_01.dataextenttestng"/>
+      <methods>
+      <include name="testgooglee"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+   <test  name="TestFaceBook">
+  <parameter name="author" value="ganga"/>
+    <classes>
+      <class name="datadrivenwithExtentReportday_01.dataextenttestng"/>
+      <methods>
+      <include name="testfacebooks"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test  name="TestGoogle">
+  <parameter name="author" value="satyabhavani"/>
+    <classes>
+      <class name="extentReportScreenshotPracticeday_09.testClassExtentFive"/>
+      <methods>
+      <include name="testGoogle"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestORGHRM">
+   <parameter name="author" value="kadalibhavani"/>
+    <classes>
+      <class name="extentReportScreenshotPracticeday_09.testClassExtentFive"/>
+      <methods>
+      <include name="testORGhrm"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

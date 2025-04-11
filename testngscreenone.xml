@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test  name="Test1">
+    <classes>
+      <class name="screenshotExtentReportday_02.TestClassTwo"/>
+      <methods>
+      <include name="testgoogles"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test2">
+    <classes>
+      <class name="screenshotExtentReportday_02.TestClassTwo"/>
+      <methods>
+      <include name="testfacebooks"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test3">
+    <classes>
+      <class name="screenshotExtentReportday_02.TestClassTwo"/>
+      <methods>
+      <include name="testorangahrms"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

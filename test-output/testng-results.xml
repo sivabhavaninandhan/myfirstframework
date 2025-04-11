@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-25T06:07:26 IST" name="Default suite" finished-at="2025-03-25T06:07:27 IST" duration-ms="1561">
+    <groups>
+      <group name="regression">
+        <method signature="testcasesExtent.testgooglee()[pri:0, instance:screenshotCapturingInExtentReportday_03.testcasesExtent@c94fd30]" name="testgooglee" class="screenshotCapturingInExtentReportday_03.testcasesExtent"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="testcasesExtent.testgooglee()[pri:0, instance:screenshotCapturingInExtentReportday_03.testcasesExtent@c94fd30]" name="testgooglee" class="screenshotCapturingInExtentReportday_03.testcasesExtent"/>
+        <method signature="testcasesExtent.testorange()[pri:0, instance:screenshotCapturingInExtentReportday_03.testcasesExtent@c94fd30]" name="testorange" class="screenshotCapturingInExtentReportday_03.testcasesExtent"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="testcasesExtent.testfacebooks()[pri:0, instance:screenshotCapturingInExtentReportday_03.testcasesExtent@c94fd30]" name="testfacebooks" class="screenshotCapturingInExtentReportday_03.testcasesExtent"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-03-25T06:07:26 IST" name="Default test" finished-at="2025-03-25T06:07:27 IST" duration-ms="1561">
+      <class name="screenshotCapturingInExtentReportday_03.testcasesExtent">
+        <test-method is-config="true" signature="initiliseextentReports()[pri:0, instance:screenshotCapturingInExtentReportday_03.testcasesExtent@c94fd30]" started-at="2025-03-25T06:07:26 IST" name="initiliseextentReports" finished-at="2025-03-25T06:07:26 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiliseextentReports -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:screenshotCapturingInExtentReportday_03.testcasesExtent@c94fd30]" started-at="2025-03-25T06:07:26 IST" name="setup" finished-at="2025-03-25T06:07:27 IST" duration-ms="1490" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@79ab34c1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.replaceAll(String, String)" because "x" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.replaceAll(String, String)" because "x" is null
+at com.aventstack.extentreports.ExtentTest.lambda$assignAuthor$1(ExtentTest.java:1067)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+at com.aventstack.extentreports.ExtentTest.assignAuthor(ExtentTest.java:1066)
+at screenshotCapturingInExtentReportday_03.BaseClassExtent.setup(BaseClassExtent.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testfacebooks()[pri:0, instance:screenshotCapturingInExtentReportday_03.testcasesExtent@c94fd30]" started-at="2025-03-25T06:07:27 IST" name="testfacebooks" finished-at="2025-03-25T06:07:27 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.replaceAll(String, String)" because "x" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.replaceAll(String, String)" because "x" is null
+at com.aventstack.extentreports.ExtentTest.lambda$assignAuthor$1(ExtentTest.java:1067)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+at com.aventstack.extentreports.ExtentTest.assignAuthor(ExtentTest.java:1066)
+at screenshotCapturingInExtentReportday_03.BaseClassExtent.setup(BaseClassExtent.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfacebooks -->
+        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:screenshotCapturingInExtentReportday_03.testcasesExtent@c94fd30]" started-at="2025-03-25T06:07:27 IST" name="checkstatus" finished-at="2025-03-25T06:07:27 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method signature="testgooglee()[pri:0, instance:screenshotCapturingInExtentReportday_03.testcasesExtent@c94fd30]" started-at="2025-03-25T06:07:27 IST" name="testgooglee" finished-at="2025-03-25T06:07:27 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.replaceAll(String, String)" because "x" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.replaceAll(String, String)" because "x" is null
+at com.aventstack.extentreports.ExtentTest.lambda$assignAuthor$1(ExtentTest.java:1067)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+at com.aventstack.extentreports.ExtentTest.assignAuthor(ExtentTest.java:1066)
+at screenshotCapturingInExtentReportday_03.BaseClassExtent.setup(BaseClassExtent.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgooglee -->
+        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:screenshotCapturingInExtentReportday_03.testcasesExtent@c94fd30]" started-at="2025-03-25T06:07:27 IST" name="checkstatus" finished-at="2025-03-25T06:07:27 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method signature="testorange()[pri:0, instance:screenshotCapturingInExtentReportday_03.testcasesExtent@c94fd30]" started-at="2025-03-25T06:07:27 IST" name="testorange" finished-at="2025-03-25T06:07:27 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.replaceAll(String, String)" because "x" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.replaceAll(String, String)" because "x" is null
+at com.aventstack.extentreports.ExtentTest.lambda$assignAuthor$1(ExtentTest.java:1067)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+at com.aventstack.extentreports.ExtentTest.assignAuthor(ExtentTest.java:1066)
+at screenshotCapturingInExtentReportday_03.BaseClassExtent.setup(BaseClassExtent.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testorange -->
+        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:screenshotCapturingInExtentReportday_03.testcasesExtent@c94fd30]" started-at="2025-03-25T06:07:27 IST" name="checkstatus" finished-at="2025-03-25T06:07:27 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:screenshotCapturingInExtentReportday_03.testcasesExtent@c94fd30]" started-at="2025-03-25T06:07:27 IST" name="teardown" finished-at="2025-03-25T06:07:27 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="generateextentReports()[pri:0, instance:screenshotCapturingInExtentReportday_03.testcasesExtent@c94fd30]" started-at="2025-03-25T06:07:27 IST" name="generateextentReports" finished-at="2025-03-25T06:07:27 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateextentReports -->
+      </class> <!-- screenshotCapturingInExtentReportday_03.testcasesExtent -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

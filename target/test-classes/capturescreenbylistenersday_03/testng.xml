@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test  name="TestGoogle">
+    <classes>
+      <class name="capturescreenbylistenersday_03.ITestlistenersthree"/>
+      <methods>
+      <include name="testgoogle"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="TestFaceBook">
+    <classes>
+      <class name="capturescreenbylistenersday_03.ITestlistenersthree"/>
+      <methods>
+      <include name="testfacebook"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

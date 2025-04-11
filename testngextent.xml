@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test  name="testgoogle">
+  <parametere name="author" value="bhavani"/>
+    <classes>
+      <class name="extentreportscreenshot.testcaseslisteners"/>
+      <methods>
+      <include name="testgooglee"/> 
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="testfacebook">
+  <parameter name="author" value="ganga"/>
+    <classes>
+      <class name="extentreportscreenshot.testcaseslisteners"/>
+      <methods>
+      <include name="testfacebooks"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="testorangehrm">
+  <parameter name="author" value="kadali"/>
+    <classes>
+      <class name="extentreportscreenshot.testcaseslisteners"/>
+      <methods>
+      <include name="testorangahrms"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

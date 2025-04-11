@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="TestGoogle(failed)">
+    <parameter name="author" value="kadali"/>
+    <classes>
+      <class name="screenshotCapturingday_10.testClassExtentten">
+        <methods>
+          <include name="initiateExtentReport"/>
+          <include name="testgooglee"/>
+          <include name="teardown"/>
+          <include name="checkStatus"/>
+          <include name="generateExtentReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- screenshotCapturingday_10.testClassExtentten -->
+    </classes>
+  </test> <!-- TestGoogle(failed) -->
+  <test thread-count="5" name="TestFaceBook(failed)">
+    <parameter name="author" value="bhavani"/>
+    <classes>
+      <class name="screenshotCapturingday_10.testClassExtentten">
+        <methods>
+          <include name="initiateExtentReport"/>
+          <include name="testfacebooks"/>
+          <include name="teardown"/>
+          <include name="checkStatus"/>
+          <include name="generateExtentReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- screenshotCapturingday_10.testClassExtentten -->
+    </classes>
+  </test> <!-- TestFaceBook(failed) -->
+</suite> <!-- Failed suite [Suite] -->
