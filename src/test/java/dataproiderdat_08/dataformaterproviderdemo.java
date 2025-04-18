@@ -18,23 +18,20 @@ public class dataformaterproviderdemo {
 		FileInputStream fis=new FileInputStream(filepath);
 		XSSFWorkbook workbook=new XSSFWorkbook(fis);
 		XSSFSheet sheet=workbook.getSheet("Sheet1");
-		XSSFRow row=sheet.getRow(0);
-		XSSFCell result=row.createCell(2);
 		
 		int rw=sheet.getPhysicalNumberOfRows();
 		int cl=sheet.getRow(0).getPhysicalNumberOfCells();
 	
-		System.out.print(rw+"  "+cl);
 		String[][] value=new String[rw-1][cl];
 		
 		for(int r=0;r<rw-1;r++)
 		{
 			for(int c=0;c<cl;c++)
 			{
-				
+				XSSFRow row=sheet.getRow(r);
+				XSSFCell result=row.createCell(2);
 			try {
-				//XSSFRow row=sheet.getRow(r);
-				//XSSFCell result=row.createCell(2);
+				
 				DataFormatter df=new DataFormatter();
 				value[r][c]=df.formatCellValue(sheet.getRow(r+1).getCell(c));
 				result.setCellValue("valid data");
@@ -42,14 +39,16 @@ public class dataformaterproviderdemo {
 			catch(Exception e)
 			{
 				System.out.println("invalid data");
+			   result.setCellValue("invalid data");
 				//result.setCellValue("inavlid data");
 			}
 			}
+		}
 	
-			}
+			
 		
 		//workbook.close();
-		fis.close();
+	    fis.close();
 		FileOutputStream fos=new FileOutputStream(filepath);
 		workbook.write(fos);
 		return value;

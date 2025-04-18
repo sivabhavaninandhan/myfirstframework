@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="TestORG(failed)">
     <classes>
-      <class name="screenshotCapturingInExtentReportday_03.testcasesExtent">
+      <class name="CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases">
         <methods>
-          <include name="testgooglee"/>
-          <include name="generateextentReports"/>
-          <include name="checkstatus"/>
-          <include name="initiliseextentReports"/>
-          <include name="setup"/>
-          <include name="testorange"/>
+          <include name="testorange" invocation-numbers="1 2"/>
           <include name="teardown"/>
-          <include name="testfacebooks"/>
+          <include name="setup"/>
+          <include name="takesscreenshot"/>
         </methods>
-      </class> <!-- screenshotCapturingInExtentReportday_03.testcasesExtent -->
+      </class> <!-- CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TestORG(failed) -->
+  <test thread-count="5" name="TestGoogle(failed)">
+    <classes>
+      <class name="CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases">
+        <methods>
+          <include name="testgoogle"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="takesscreenshot"/>
+        </methods>
+      </class> <!-- CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases -->
+    </classes>
+  </test> <!-- TestGoogle(failed) -->
+  <test thread-count="5" name="TestFacebook(failed)">
+    <classes>
+      <class name="CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases">
+        <methods>
+          <include name="teardown"/>
+          <include name="testfacebook"/>
+          <include name="setup"/>
+          <include name="takesscreenshot"/>
+        </methods>
+      </class> <!-- CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases -->
+    </classes>
+  </test> <!-- TestFacebook(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <test thread-count="5" name="TestGoogle(failed)">
-    <parameter name="author" value="kadali"/>
+  <test thread-count="5" name="TestORG(failed)">
     <classes>
-      <class name="screenshotCapturingday_10.testClassExtentten">
+      <class name="CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases">
         <methods>
-          <include name="initiateExtentReport"/>
-          <include name="testgooglee"/>
+          <include name="testorange" invocation-numbers="1 2"/>
           <include name="teardown"/>
-          <include name="checkStatus"/>
-          <include name="generateExtentReport"/>
           <include name="setup"/>
+          <include name="takesscreenshot"/>
         </methods>
-      </class> <!-- screenshotCapturingday_10.testClassExtentten -->
+      </class> <!-- CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases -->
+    </classes>
+  </test> <!-- TestORG(failed) -->
+  <test thread-count="5" name="TestGoogle(failed)">
+    <classes>
+      <class name="CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases">
+        <methods>
+          <include name="testgoogle"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="takesscreenshot"/>
+        </methods>
+      </class> <!-- CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases -->
     </classes>
   </test> <!-- TestGoogle(failed) -->
-  <test thread-count="5" name="TestFaceBook(failed)">
-    <parameter name="author" value="bhavani"/>
+  <test thread-count="5" name="TestFacebook(failed)">
     <classes>
-      <class name="screenshotCapturingday_10.testClassExtentten">
+      <class name="CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases">
         <methods>
-          <include name="initiateExtentReport"/>
-          <include name="testfacebooks"/>
           <include name="teardown"/>
-          <include name="checkStatus"/>
-          <include name="generateExtentReport"/>
+          <include name="testfacebook"/>
           <include name="setup"/>
+          <include name="takesscreenshot"/>
         </methods>
-      </class> <!-- screenshotCapturingday_10.testClassExtentten -->
+      </class> <!-- CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases -->
     </classes>
-  </test> <!-- TestFaceBook(failed) -->
+  </test> <!-- TestFacebook(failed) -->
 </suite> <!-- Failed suite [Suite] -->

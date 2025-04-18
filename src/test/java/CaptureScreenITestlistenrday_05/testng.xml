@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test  name="TestORG">
+    <classes>
+      <class name="CaptureScreenITestlistenrday_05.capturescreendatadriven"/>
+      <methods>
+      <include name="testorangeHRM"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+   <test  name="Testgoogle">
+    <classes>
+      <class name="CaptureScreenITestlistenrday_05.capturescreendatadriven"/>
+      <methods>
+      <include name="testgoogle"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+   <test name="TestFacebook">
+    <classes>
+      <class name="CaptureScreenITestlistenrday_05.capturescreendatadriven"/>
+      <methods>
+      <include name="testfacebook"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

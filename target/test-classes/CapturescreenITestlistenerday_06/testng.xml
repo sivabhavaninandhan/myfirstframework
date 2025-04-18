@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test  name="TestORG">
+    <classes>
+      <class name="CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases"/>
+      <methods>
+      <include name="testorange"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="TestGoogle">
+    <classes>
+      <class name="CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases"/>
+      <methods>
+      <include name="testgoogle"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="TestFacebook">
+    <classes>
+      <class name="CapturescreenITestlistenerday_06.ITestlistenerDatadrivenTestcases"/>
+      <methods>
+      <include name="testfacebook"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

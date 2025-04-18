@@ -32,11 +32,11 @@ public class BaseTest3 {
 	{
 		capturescreen(result.getTestContext().getName()+"_"+result.getMethod().getMethodName()+".png");
 	}
- @AfterTest
+/* @AfterTest
  public void teardown()
  {
 	 driver.quit();
- }
+ }*/
  
  public void capturescreen(String pic) throws IOException
  {
@@ -47,11 +47,7 @@ public class BaseTest3 {
 	 File ssr=ts.getScreenshotAs(OutputType.FILE);
 	 File dds=new File("./screen31/"+timestamp+pic);
 	 
-	 FileUtils.copyFile(ssr, dds);
-	 
-	 
-	 
-	 
+	 FileUtils.copyFile(ssr, dds); 
 	 
  }
 }

@@ -3,18 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="screenshotCapturingInExtentReportday_03.testcasesExtent">
+      <class name="DataDrivenTestFive.DataproviderTestcases">
         <methods>
-          <include name="testgooglee"/>
-          <include name="generateextentReports"/>
-          <include name="checkstatus"/>
-          <include name="initiliseextentReports"/>
           <include name="setup"/>
-          <include name="testorange"/>
-          <include name="teardown"/>
-          <include name="testfacebooks"/>
+          <include name="testcases" invocation-numbers="1 2 3"/>
         </methods>
-      </class> <!-- screenshotCapturingInExtentReportday_03.testcasesExtent -->
+      </class> <!-- DataDrivenTestFive.DataproviderTestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
